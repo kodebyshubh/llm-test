@@ -1,0 +1,339 @@
+{
+  "qwen35_08b": {
+    "tag": "qwen3.5:0.8b",
+    "pull_s": 2,
+    "pulled": true,
+    "info": {
+      "size_bytes": 1322069277,
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "parent_model": "qwen35-validation-20260930:0.8b-stock-q8_0-q8draft2",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "752.39M",
+        "quantization_level": "Q8_0",
+        "runner": "llamacpp"
+      },
+      "context_length": 262144,
+      "license_head": "Apache License                            Version 2.0, January 2004                         http://www.apache.org/licenses/",
+      "param_count": 752393024
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "llama32_3b": {
+    "tag": "llama3.2:3b",
+    "pull_s": 92,
+    "pulled": true,
+    "info": {
+      "size_bytes": 2019393189,
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "3.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "context_length": 131072,
+      "license_head": "LLAMA 3.2 COMMUNITY LICENSE AGREEMENT Llama 3.2 Version Release Date: September 25, 2024 ",
+      "param_count": 3212749888
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "qwen35_4b": {
+    "tag": "qwen3.5:4b",
+    "pull_s": 172,
+    "pulled": true,
+    "info": {
+      "size_bytes": 3324173934,
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M",
+        "runner": "llamacpp"
+      },
+      "context_length": 262144,
+      "license_head": "Apache License                            Version 2.0, January 2004                         http://www.apache.org/licenses/",
+      "param_count": 4205751296
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "qwen35_2b": {
+    "tag": "qwen3.5:2b-q4_K_M",
+    "pull_s": 86,
+    "pulled": true,
+    "info": {
+      "size_bytes": 1945781358,
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "1.9B",
+        "quantization_level": "Q4_K_M",
+        "runner": "llamacpp"
+      },
+      "context_length": 262144,
+      "license_head": "Apache License                            Version 2.0, January 2004                         http://www.apache.org/licenses/",
+      "param_count": 1881825088
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "gemma4_e2b": {
+    "tag": "gemma4:e2b-it-qat",
+    "pull_s": 185,
+    "pulled": true,
+    "info": {
+      "size_bytes": 4336358185,
+      "capabilities": [
+        "completion",
+        "vision",
+        "audio",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "4.6B",
+        "quantization_level": "Q4_0"
+      },
+      "context_length": 131072,
+      "license_head": "Apache License                            Version 2.0, January 2004                         http://www.apache.org/licenses/",
+      "param_count": 4628569635
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "phi4mini": {
+    "tag": "phi4-mini:3.8b",
+    "pull_s": 108,
+    "pulled": true,
+    "info": {
+      "size_bytes": 2491876774,
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "phi3",
+        "families": [
+          "phi3"
+        ],
+        "parameter_size": "3.8B",
+        "quantization_level": "Q4_K_M"
+      },
+      "context_length": 131072,
+      "license_head": "Microsoft. Copyright (c) Microsoft Corporation. ",
+      "param_count": 3836021856
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "granite42_3b": {
+    "tag": "ibm/granite4.2:3b",
+    "pull_s": 98,
+    "pulled": true,
+    "info": {
+      "size_bytes": 2244023374,
+      "capabilities": [
+        "tools",
+        "thinking",
+        "completion"
+      ],
+      "details": {
+        "parent_model": "/Users/runner/.ollama/models/blobs/sha256-e0406663965846ae22a403456eb826ccce5f450840491f71952f18a7cb78e7d5",
+        "format": "gguf",
+        "family": "granite",
+        "families": [
+          "granite"
+        ],
+        "parameter_size": "3.7B",
+        "quantization_level": "Q4_K_M"
+      },
+      "context_length": 131072,
+      "license_head": "Apache License                            Version 2.0, January 2004                         http://www.apache.org/licenses/",
+      "param_count": 3659737600
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "lfm3_17b": {
+    "tag": "hf.co/LiquidAI/LFM3-1.7B-GGUF:Q4_K_M",
+    "pull_s": 57,
+    "pulled": true,
+    "info": {
+      "size_bytes": 1099639375,
+      "capabilities": [
+        "tools",
+        "thinking",
+        "completion"
+      ],
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "lfm3",
+        "families": [
+          "lfm3"
+        ],
+        "parameter_size": "1.73B",
+        "quantization_level": "Q4_K_M"
+      },
+      "context_length": 262144,
+      "license_head": "LFM Open License v1.0   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION",
+      "param_count": 1728801600
+    },
+    "A": "failed: llama-server process has terminated: exit status 1: error loading model: unknown model architecture: 'lfm3'\nerror loading model: unknown model architecture: 'lfm3'",
+    "B": "failed: llama-server process has terminated: exit status 1: error loading model: unknown model architecture: 'lfm3'\nerror loading model: unknown model architecture: 'lfm3'",
+    "C": "failed: llama-server process has terminated: exit status 1: error loading model: unknown model architecture: 'lfm3'\nerror loading model: unknown model architecture: 'lfm3'",
+    "removed": true
+  },
+  "nemotron3_4b": {
+    "tag": "nemotron-3-nano:4b",
+    "pull_s": 121,
+    "pulled": true,
+    "info": {
+      "size_bytes": 2837597147,
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nemotron_h",
+        "families": [
+          "nemotron_h"
+        ],
+        "parameter_size": "4.0B",
+        "quantization_level": "Q4_K_M",
+        "runner": "llamacpp"
+      },
+      "context_length": 262144,
+      "license_head": "NVIDIA Open Model License Agreement Last Modified: October 24, 2025 ",
+      "param_count": 3973556832
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "smollm3_3b": {
+    "tag": "hf.co/ggml-org/SmolLM3-3B-GGUF:Q4_K_M",
+    "pull_s": 1,
+    "pulled": true,
+    "info": {
+      "size_bytes": 1915306210,
+      "capabilities": [
+        "tools",
+        "thinking",
+        "completion"
+      ],
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "smollm3",
+        "families": [
+          "smollm3"
+        ],
+        "parameter_size": "3.08B",
+        "quantization_level": "Q4_K_M"
+      },
+      "context_length": 65536,
+      "license_head": "",
+      "param_count": 3075098624
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  },
+  "lfm25_12b": {
+    "tag": "hf.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF:Q4_K_M",
+    "pull_s": 44,
+    "pulled": true,
+    "info": {
+      "size_bytes": 730906680,
+      "capabilities": [
+        "tools",
+        "thinking",
+        "completion"
+      ],
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "lfm2",
+        "families": [
+          "lfm2"
+        ],
+        "parameter_size": "1.17B",
+        "quantization_level": "Q4_K_M"
+      },
+      "context_length": 128000,
+      "license_head": "LICENSE TEXT  ",
+      "param_count": 1170340608
+    },
+    "A": "done",
+    "B": "done",
+    "C": "done",
+    "removed": true
+  }
+}

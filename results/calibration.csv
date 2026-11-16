@@ -1,0 +1,11 @@
+model,name,profileA_tps,"factor N150 (Geerling, verified)","est tps N150 (Geerling, verified)","factor i5-10210U (MetriLLM, unverified)","est tps i5-10210U (MetriLLM, unverified)"
+qwen35_08b,Qwen3.5-0.8B,23.62,0.675,15.9,0.745,17.6
+llama32_3b,Llama 3.2 3B Instruct,13.43,0.675,9.1,0.745,10.0
+qwen35_4b,Qwen3.5-4B,9.59,0.675,6.5,0.745,7.1
+qwen35_2b,Qwen3.5-2B,20.1,0.675,13.6,0.745,15.0
+gemma4_e2b,Gemma 4 E2B,20.17,0.675,13.6,0.745,15.0
+phi4mini,Phi-4-mini-instruct,11.68,0.675,7.9,0.745,8.7
+granite42_3b,Granite 4.2 3B,13.3,0.675,9.0,0.745,9.9
+nemotron3_4b,Nemotron 3 Nano 4B,9.59,0.675,6.5,0.745,7.1
+smollm3_3b,SmolLM3-3B,14.63,0.675,9.9,0.745,10.9
+lfm25_12b,LFM2.5-1.2B-Instruct (substitute for LFM3-1.7B),40.34,0.675,27.2,0.745,30.0

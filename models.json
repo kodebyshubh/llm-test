@@ -1,0 +1,13 @@
+[
+  {"key": "qwen35_08b", "name": "Qwen3.5-0.8B", "dev": "Alibaba Qwen", "tag": "qwen3.5:0.8b"},
+  {"key": "llama32_3b", "name": "Llama 3.2 3B Instruct", "dev": "Meta", "tag": "llama3.2:3b"},
+  {"key": "qwen35_4b", "name": "Qwen3.5-4B", "dev": "Alibaba Qwen", "tag": "qwen3.5:4b"},
+  {"key": "qwen35_2b", "name": "Qwen3.5-2B", "dev": "Alibaba Qwen", "tag": "qwen3.5:2b-q4_K_M"},
+  {"key": "gemma4_e2b", "name": "Gemma 4 E2B", "dev": "Google", "tag": "gemma4:e2b-it-qat"},
+  {"key": "phi4mini", "name": "Phi-4-mini-instruct", "dev": "Microsoft", "tag": "phi4-mini:3.8b"},
+  {"key": "granite42_3b", "name": "Granite 4.2 3B", "dev": "IBM", "tag": "ibm/granite4.2:3b"},
+  {"key": "lfm3_17b", "name": "LFM3-1.7B", "dev": "Liquid AI", "tag": "hf.co/LiquidAI/LFM3-1.7B-GGUF:Q4_K_M"},
+  {"key": "nemotron3_4b", "name": "Nemotron 3 Nano 4B", "dev": "NVIDIA", "tag": "nemotron-3-nano:4b"},
+  {"key": "smollm3_3b", "name": "SmolLM3-3B", "dev": "Hugging Face", "tag": "hf.co/ggml-org/SmolLM3-3B-GGUF:Q4_K_M"},
+  {"key": "lfm25_12b", "name": "LFM2.5-1.2B-Instruct (substitute for LFM3-1.7B)", "dev": "Liquid AI", "tag": "hf.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF:Q4_K_M"}
+]

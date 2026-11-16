@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Created by the benchmark at run time (large or machine specific)
+ollama-models/
+logs/
+tmp/
+results/smoke/
+*.tmp
+
+# Local tooling
+tools/
+uv-cache/
+uv-python/
+
+# Machine cleanup files from the original test run
+CLEANUP.md
+cleanup.ps1
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

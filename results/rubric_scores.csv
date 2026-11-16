@@ -1,0 +1,61 @@
+model,prompt_id,score,note
+qwen35_08b,G1,1,attributes scattering to water droplets and dust and says sky is blue on cloudy days
+qwen35_08b,G2,2,correct
+qwen35_08b,G3,1,claims excess supply pushes prices up (wrong)
+qwen35_08b,G4,1,tilt correct but several wrong side claims (distance constant; day length)
+qwen35_08b,S1,2,faithful
+qwen35_08b,S2,1,conflates 400 packets with 600 households
+llama32_3b,G1,2,Rayleigh scattering by gas molecules
+llama32_3b,G2,2,correct
+llama32_3b,G3,2,correct definition and two valid causes
+llama32_3b,G4,2,tilt and misconception handled
+llama32_3b,S1,1,invents location Millbrook NY
+llama32_3b,S2,2,faithful main idea
+qwen35_4b,G1,2,Rayleigh scattering and violet sensitivity explained
+qwen35_4b,G2,2,correct
+qwen35_4b,G3,2,demand-pull and cost-push
+qwen35_4b,G4,2,tilt plus perihelion argument; small muddle on southern hemisphere
+qwen35_4b,S1,2,faithful
+qwen35_4b,S2,2,faithful main idea
+qwen35_2b,G1,2,Rayleigh scattering correct
+qwen35_2b,G2,2,correct
+qwen35_2b,G3,2,demand-pull and cost-push
+qwen35_2b,G4,2,tilt and perihelion argument
+qwen35_2b,S1,1,says five seeds annually instead of five packets per season
+qwen35_2b,S2,1,invents exchanging seeds for books
+gemma4_e2b,G1,2,Rayleigh scattering by N2 and O2
+gemma4_e2b,G2,2,correct
+gemma4_e2b,G3,2,demand and cost causes
+gemma4_e2b,G4,2,tilt and hemisphere argument against distance
+gemma4_e2b,S1,2,faithful
+gemma4_e2b,S2,2,faithful main idea
+phi4mini,G1,2,Rayleigh scattering correct
+phi4mini,G2,2,correct incl. volatility and cost
+phi4mini,G3,2,demand-pull and cost-push
+phi4mini,G4,1,tilt correct but misconception only asserted and equinox claim wrong
+phi4mini,S1,2,faithful
+phi4mini,S2,2,faithful
+granite42_3b,G1,2,molecular scattering of short wavelengths
+granite42_3b,G2,2,correct
+granite42_3b,G3,2,money supply and cost-push
+granite42_3b,G4,2,tilt and misconception addressed
+granite42_3b,S1,2,faithful; slightly overstates returns as required
+granite42_3b,S2,2,faithful
+nemotron3_4b,G1,2,Rayleigh scattering correct
+nemotron3_4b,G2,2,correct
+nemotron3_4b,G3,2,brief but correct with two causes
+nemotron3_4b,G4,2,tilt and misconception addressed
+nemotron3_4b,S1,1,wrong numbers: 400 to 900+ varieties
+nemotron3_4b,S2,2,faithful
+smollm3_3b,G1,2,Rayleigh scattering; odd swimming pool analogy
+smollm3_3b,G2,2,correct
+smollm3_3b,G3,2,demand-pull and cost-push
+smollm3_3b,G4,2,tilt and misconception addressed
+smollm3_3b,S1,2,faithful
+smollm3_3b,S2,2,faithful
+lfm25_12b,G1,2,molecular scattering of short wavelengths
+lfm25_12b,G2,2,correct
+lfm25_12b,G3,2,demand-pull and cost-push
+lfm25_12b,G4,1,tilt named but last sentence brings distance back as a cause
+lfm25_12b,S1,1,says five seeds annually instead of five packets per season
+lfm25_12b,S2,1,claims staff workload concern was addressed

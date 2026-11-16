@@ -1,0 +1,505 @@
+model,profile,phase,prompt_id,category,scoring,score,detail,had_think_tags,eval_count,done_reason
+gemma4_e2b,A,quality,C1,code,unit_tests,1,pass,0,47,stop
+gemma4_e2b,A,quality,C2,code,unit_tests,1,pass,0,224,stop
+gemma4_e2b,A,quality,C3,code,unit_tests,1,pass,0,160,stop
+gemma4_e2b,A,quality,C4,code,unit_tests,1,pass,0,89,stop
+gemma4_e2b,A,quality,G1,general,rubric,,rubric (scored by hand),0,82,stop
+gemma4_e2b,A,quality,G2,general,rubric,,rubric (scored by hand),0,93,stop
+gemma4_e2b,A,quality,G3,general,rubric,,rubric (scored by hand),0,99,stop
+gemma4_e2b,A,quality,G4,general,rubric,,rubric (scored by hand),0,272,stop
+gemma4_e2b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,18,stop
+gemma4_e2b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,30,stop
+gemma4_e2b,A,quality,I3,instruction,max_words,1,32 words,0,37,stop
+gemma4_e2b,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,32,stop
+gemma4_e2b,A,quality,M1,math,regex_number,0,got 3.75 (format_ok=True),0,418,stop
+gemma4_e2b,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,314,stop
+gemma4_e2b,A,quality,M3,math,regex_number,0,got 4 (format_ok=True),0,512,length
+gemma4_e2b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,84,stop
+gemma4_e2b,A,quality,S1,summarization,rubric+max_words,1,length check: 47 words (limit 60),0,71,stop
+gemma4_e2b,A,quality,S2,summarization,rubric+max_words,1,length check: 14 words (limit 19),0,17,stop
+gemma4_e2b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=35,0,44,stop
+gemma4_e2b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+gemma4_e2b,B,quality,C1,code,unit_tests,1,pass,0,47,stop
+gemma4_e2b,B,quality,C2,code,unit_tests,1,pass,0,224,stop
+gemma4_e2b,B,quality,C3,code,unit_tests,1,pass,0,160,stop
+gemma4_e2b,B,quality,C4,code,unit_tests,1,pass,0,89,stop
+gemma4_e2b,B,quality,G1,general,rubric,,rubric (scored by hand),0,82,stop
+gemma4_e2b,B,quality,G2,general,rubric,,rubric (scored by hand),0,93,stop
+gemma4_e2b,B,quality,G3,general,rubric,,rubric (scored by hand),0,99,stop
+gemma4_e2b,B,quality,G4,general,rubric,,rubric (scored by hand),0,271,stop
+gemma4_e2b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,18,stop
+gemma4_e2b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,30,stop
+gemma4_e2b,B,quality,I3,instruction,max_words,1,32 words,0,37,stop
+gemma4_e2b,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,32,stop
+gemma4_e2b,B,quality,M1,math,regex_number,0,got 3.75 (format_ok=True),0,418,stop
+gemma4_e2b,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,314,stop
+gemma4_e2b,B,quality,M3,math,regex_number,0,no number (format_ok=True),0,512,length
+gemma4_e2b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,84,stop
+gemma4_e2b,B,quality,S1,summarization,rubric+max_words,1,length check: 57 words (limit 60),0,84,stop
+gemma4_e2b,B,quality,S2,summarization,rubric+max_words,1,length check: 14 words (limit 19),0,17,stop
+gemma4_e2b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=35,0,44,stop
+gemma4_e2b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+gemma4_e2b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,315,stop
+gemma4_e2b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,336,stop
+gemma4_e2b,B,reason_off,R3,math,regex_number,0,no number (format_ok=True),0,512,length
+gemma4_e2b,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,322,stop
+gemma4_e2b,B,reason_on,M1,math,regex_number,1,got 3.50 (format_ok=True),0,584,stop
+gemma4_e2b,B,reason_on,M2,math,regex_number,1,got 215 (format_ok=True),0,523,stop
+gemma4_e2b,B,reason_on,M3,math,regex_number,1,got 480 (format_ok=True),0,891,stop
+gemma4_e2b,B,reason_on,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,426,stop
+gemma4_e2b,B,reason_on,R1,math,regex_number,1,got 5 (format_ok=True),0,754,stop
+gemma4_e2b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,805,stop
+gemma4_e2b,B,reason_on,R3,math,regex_number,1,got 4 (format_ok=True),0,743,stop
+gemma4_e2b,B,reason_on,R4,logic,regex_number,1,got 4 (format_ok=True),0,657,stop
+granite42_3b,A,quality,C1,code,unit_tests,1,pass,0,43,stop
+granite42_3b,A,quality,C2,code,unit_tests,1,pass,0,106,stop
+granite42_3b,A,quality,C3,code,unit_tests,1,pass,0,131,stop
+granite42_3b,A,quality,C4,code,unit_tests,1,pass,0,45,stop
+granite42_3b,A,quality,G1,general,rubric,,rubric (scored by hand),0,53,stop
+granite42_3b,A,quality,G2,general,rubric,,rubric (scored by hand),0,103,stop
+granite42_3b,A,quality,G3,general,rubric,,rubric (scored by hand),0,80,stop
+granite42_3b,A,quality,G4,general,rubric,,rubric (scored by hand),0,184,stop
+granite42_3b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,21,stop
+granite42_3b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,41,stop
+granite42_3b,A,quality,I3,instruction,max_words,1,26 words,0,35,stop
+granite42_3b,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,26,stop
+granite42_3b,A,quality,M1,math,regex_number,1,got 3.5 (format_ok=True),0,69,stop
+granite42_3b,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,98,stop
+granite42_3b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,163,stop
+granite42_3b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,119,stop
+granite42_3b,A,quality,S1,summarization,rubric+max_words,0,length check: 80 words (limit 60),0,112,stop
+granite42_3b,A,quality,S2,summarization,rubric+max_words,1,length check: 19 words (limit 19),0,30,stop
+granite42_3b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=42,0,56,stop
+granite42_3b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+granite42_3b,B,quality,C1,code,unit_tests,1,pass,0,43,stop
+granite42_3b,B,quality,C2,code,unit_tests,1,pass,0,106,stop
+granite42_3b,B,quality,C3,code,unit_tests,1,pass,0,131,stop
+granite42_3b,B,quality,C4,code,unit_tests,1,pass,0,45,stop
+granite42_3b,B,quality,G1,general,rubric,,rubric (scored by hand),0,53,stop
+granite42_3b,B,quality,G2,general,rubric,,rubric (scored by hand),0,103,stop
+granite42_3b,B,quality,G3,general,rubric,,rubric (scored by hand),0,80,stop
+granite42_3b,B,quality,G4,general,rubric,,rubric (scored by hand),0,184,stop
+granite42_3b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,21,stop
+granite42_3b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,41,stop
+granite42_3b,B,quality,I3,instruction,max_words,1,26 words,0,35,stop
+granite42_3b,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,26,stop
+granite42_3b,B,quality,M1,math,regex_number,1,got 3.5 (format_ok=True),0,69,stop
+granite42_3b,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,98,stop
+granite42_3b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,163,stop
+granite42_3b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,119,stop
+granite42_3b,B,quality,S1,summarization,rubric+max_words,0,length check: 75 words (limit 60),0,108,stop
+granite42_3b,B,quality,S2,summarization,rubric+max_words,1,length check: 19 words (limit 19),0,26,stop
+granite42_3b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=42,0,56,stop
+granite42_3b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+granite42_3b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,113,stop
+granite42_3b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,182,stop
+granite42_3b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,338,stop
+granite42_3b,B,reason_off,R4,logic,regex_number,0,got 5 (format_ok=False),0,512,length
+granite42_3b,B,reason_on,M1,math,regex_number,1,got 3.50 (format_ok=True),0,954,stop
+granite42_3b,B,reason_on,M2,math,regex_number,1,got 215 (format_ok=True),0,632,stop
+granite42_3b,B,reason_on,M3,math,regex_number,1,got 480 (format_ok=True),0,543,stop
+granite42_3b,B,reason_on,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,940,stop
+granite42_3b,B,reason_on,R1,math,regex_number,1,got 5 (format_ok=True),0,657,stop
+granite42_3b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,711,stop
+granite42_3b,B,reason_on,R3,math,regex_number,1,got 4 (format_ok=True),0,506,stop
+granite42_3b,B,reason_on,R4,logic,regex_number,1,got 4 (format_ok=True),0,1264,stop
+lfm25_12b,A,quality,C1,code,unit_tests,1,pass,0,43,stop
+lfm25_12b,A,quality,C2,code,unit_tests,1,pass,0,110,stop
+lfm25_12b,A,quality,C3,code,unit_tests,1,pass,0,116,stop
+lfm25_12b,A,quality,C4,code,unit_tests,1,pass,0,60,stop
+lfm25_12b,A,quality,G1,general,rubric,,rubric (scored by hand),0,53,stop
+lfm25_12b,A,quality,G2,general,rubric,,rubric (scored by hand),0,83,stop
+lfm25_12b,A,quality,G3,general,rubric,,rubric (scored by hand),0,60,stop
+lfm25_12b,A,quality,G4,general,rubric,,rubric (scored by hand),0,106,stop
+lfm25_12b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,21,stop
+lfm25_12b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,31,stop
+lfm25_12b,A,quality,I3,instruction,max_words,1,33 words,0,41,stop
+lfm25_12b,A,quality,I4,instruction,keyword_and_end,0,keyword=True ends_with_END=False,0,52,stop
+lfm25_12b,A,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,71,stop
+lfm25_12b,A,quality,M2,math,regex_number,0,got 195 (format_ok=True),0,92,stop
+lfm25_12b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,152,stop
+lfm25_12b,A,quality,M4,logic,regex_word,0,segment='dave' (format_ok=True),0,84,stop
+lfm25_12b,A,quality,S1,summarization,rubric+max_words,1,length check: 53 words (limit 60),0,74,stop
+lfm25_12b,A,quality,S2,summarization,rubric+max_words,0,length check: 26 words (limit 19),0,34,stop
+lfm25_12b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=34,0,48,stop
+lfm25_12b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+lfm25_12b,B,quality,C1,code,unit_tests,1,pass,0,43,stop
+lfm25_12b,B,quality,C2,code,unit_tests,1,pass,0,110,stop
+lfm25_12b,B,quality,C3,code,unit_tests,1,pass,0,116,stop
+lfm25_12b,B,quality,C4,code,unit_tests,1,pass,0,60,stop
+lfm25_12b,B,quality,G1,general,rubric,,rubric (scored by hand),0,53,stop
+lfm25_12b,B,quality,G2,general,rubric,,rubric (scored by hand),0,83,stop
+lfm25_12b,B,quality,G3,general,rubric,,rubric (scored by hand),0,60,stop
+lfm25_12b,B,quality,G4,general,rubric,,rubric (scored by hand),0,106,stop
+lfm25_12b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,21,stop
+lfm25_12b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,31,stop
+lfm25_12b,B,quality,I3,instruction,max_words,1,33 words,0,41,stop
+lfm25_12b,B,quality,I4,instruction,keyword_and_end,0,keyword=True ends_with_END=False,0,52,stop
+lfm25_12b,B,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,71,stop
+lfm25_12b,B,quality,M2,math,regex_number,0,got 195 (format_ok=True),0,92,stop
+lfm25_12b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,152,stop
+lfm25_12b,B,quality,M4,logic,regex_word,0,segment='dave' (format_ok=True),0,84,stop
+lfm25_12b,B,quality,S1,summarization,rubric+max_words,1,length check: 53 words (limit 60),0,74,stop
+lfm25_12b,B,quality,S2,summarization,rubric+max_words,0,length check: 26 words (limit 19),0,34,stop
+lfm25_12b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=34,0,48,stop
+lfm25_12b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+lfm25_12b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,75,stop
+lfm25_12b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,99,stop
+lfm25_12b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,97,stop
+lfm25_12b,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,162,stop
+lfm25_12b,B,reason_on,M1,math,regex_number,1,got 3.50 (format_ok=True),0,71,stop
+lfm25_12b,B,reason_on,M2,math,regex_number,0,got 195 (format_ok=True),0,92,stop
+lfm25_12b,B,reason_on,M3,math,regex_number,1,got 480 (format_ok=True),0,152,stop
+lfm25_12b,B,reason_on,M4,logic,regex_word,0,segment='dave' (format_ok=True),0,84,stop
+lfm25_12b,B,reason_on,R1,math,regex_number,1,got 5 (format_ok=True),0,75,stop
+lfm25_12b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,99,stop
+lfm25_12b,B,reason_on,R3,math,regex_number,1,got 4 (format_ok=True),0,97,stop
+lfm25_12b,B,reason_on,R4,logic,regex_number,1,got 4 (format_ok=True),0,162,stop
+llama32_3b,A,quality,C1,code,unit_tests,1,pass,0,36,stop
+llama32_3b,A,quality,C2,code,unit_tests,1,pass,0,97,stop
+llama32_3b,A,quality,C3,code,unit_tests,1,pass,0,128,stop
+llama32_3b,A,quality,C4,code,unit_tests,1,pass,0,34,stop
+llama32_3b,A,quality,G1,general,rubric,,rubric (scored by hand),0,85,stop
+llama32_3b,A,quality,G2,general,rubric,,rubric (scored by hand),0,77,stop
+llama32_3b,A,quality,G3,general,rubric,,rubric (scored by hand),0,134,stop
+llama32_3b,A,quality,G4,general,rubric,,rubric (scored by hand),0,218,stop
+llama32_3b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,23,stop
+llama32_3b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,31,stop
+llama32_3b,A,quality,I3,instruction,max_words,1,32 words,0,46,stop
+llama32_3b,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,57,stop
+llama32_3b,A,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,69,stop
+llama32_3b,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,145,stop
+llama32_3b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,195,stop
+llama32_3b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,120,stop
+llama32_3b,A,quality,S1,summarization,rubric+max_words,1,length check: 52 words (limit 60),0,70,stop
+llama32_3b,A,quality,S2,summarization,rubric+max_words,1,length check: 17 words (limit 19),0,23,stop
+llama32_3b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=66,0,86,stop
+llama32_3b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+llama32_3b,B,quality,C1,code,unit_tests,1,pass,0,36,stop
+llama32_3b,B,quality,C2,code,unit_tests,1,pass,0,97,stop
+llama32_3b,B,quality,C3,code,unit_tests,1,pass,0,128,stop
+llama32_3b,B,quality,C4,code,unit_tests,1,pass,0,34,stop
+llama32_3b,B,quality,G1,general,rubric,,rubric (scored by hand),0,85,stop
+llama32_3b,B,quality,G2,general,rubric,,rubric (scored by hand),0,77,stop
+llama32_3b,B,quality,G3,general,rubric,,rubric (scored by hand),0,134,stop
+llama32_3b,B,quality,G4,general,rubric,,rubric (scored by hand),0,217,stop
+llama32_3b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,23,stop
+llama32_3b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,31,stop
+llama32_3b,B,quality,I3,instruction,max_words,1,32 words,0,46,stop
+llama32_3b,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,57,stop
+llama32_3b,B,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,69,stop
+llama32_3b,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,145,stop
+llama32_3b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,195,stop
+llama32_3b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,120,stop
+llama32_3b,B,quality,S1,summarization,rubric+max_words,1,length check: 52 words (limit 60),0,70,stop
+llama32_3b,B,quality,S2,summarization,rubric+max_words,1,length check: 17 words (limit 19),0,23,stop
+llama32_3b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=66,0,86,stop
+llama32_3b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+llama32_3b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,127,stop
+llama32_3b,B,reason_off,R2,math,regex_number,0,got 12 (format_ok=True),0,119,stop
+llama32_3b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,163,stop
+llama32_3b,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,166,stop
+nemotron3_4b,A,quality,C1,code,unit_tests,1,pass,0,41,stop
+nemotron3_4b,A,quality,C2,code,unit_tests,1,pass,0,96,stop
+nemotron3_4b,A,quality,C3,code,unit_tests,1,pass,0,120,stop
+nemotron3_4b,A,quality,C4,code,unit_tests,1,pass,0,42,stop
+nemotron3_4b,A,quality,G1,general,rubric,,rubric (scored by hand),0,79,stop
+nemotron3_4b,A,quality,G2,general,rubric,,rubric (scored by hand),0,57,stop
+nemotron3_4b,A,quality,G3,general,rubric,,rubric (scored by hand),0,34,stop
+nemotron3_4b,A,quality,G4,general,rubric,,rubric (scored by hand),0,72,stop
+nemotron3_4b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,21,stop
+nemotron3_4b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,35,stop
+nemotron3_4b,A,quality,I3,instruction,max_words,1,24 words,0,32,stop
+nemotron3_4b,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,25,stop
+nemotron3_4b,A,quality,M1,math,regex_number,1,got 3.5 (format_ok=True),0,80,stop
+nemotron3_4b,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,78,stop
+nemotron3_4b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,129,stop
+nemotron3_4b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,39,stop
+nemotron3_4b,A,quality,S1,summarization,rubric+max_words,1,length check: 38 words (limit 60),0,57,stop
+nemotron3_4b,A,quality,S2,summarization,rubric+max_words,1,length check: 17 words (limit 19),0,23,stop
+nemotron3_4b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=30,0,40,stop
+nemotron3_4b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+nemotron3_4b,B,quality,C1,code,unit_tests,1,pass,0,41,stop
+nemotron3_4b,B,quality,C2,code,unit_tests,1,pass,0,96,stop
+nemotron3_4b,B,quality,C3,code,unit_tests,1,pass,0,120,stop
+nemotron3_4b,B,quality,C4,code,unit_tests,1,pass,0,42,stop
+nemotron3_4b,B,quality,G1,general,rubric,,rubric (scored by hand),0,79,stop
+nemotron3_4b,B,quality,G2,general,rubric,,rubric (scored by hand),0,57,stop
+nemotron3_4b,B,quality,G3,general,rubric,,rubric (scored by hand),0,34,stop
+nemotron3_4b,B,quality,G4,general,rubric,,rubric (scored by hand),0,72,stop
+nemotron3_4b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,21,stop
+nemotron3_4b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,35,stop
+nemotron3_4b,B,quality,I3,instruction,max_words,1,24 words,0,32,stop
+nemotron3_4b,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,25,stop
+nemotron3_4b,B,quality,M1,math,regex_number,1,got 3.5 (format_ok=True),0,80,stop
+nemotron3_4b,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,78,stop
+nemotron3_4b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,129,stop
+nemotron3_4b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,39,stop
+nemotron3_4b,B,quality,S1,summarization,rubric+max_words,1,length check: 38 words (limit 60),0,55,stop
+nemotron3_4b,B,quality,S2,summarization,rubric+max_words,1,length check: 17 words (limit 19),0,23,stop
+nemotron3_4b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=30,0,40,stop
+nemotron3_4b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+nemotron3_4b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,76,stop
+nemotron3_4b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,120,stop
+nemotron3_4b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,126,stop
+nemotron3_4b,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,80,stop
+nemotron3_4b,B,reason_on,M1,math,regex_number,1,got 3.5 (format_ok=True),0,156,stop
+nemotron3_4b,B,reason_on,M2,math,regex_number,1,got 215 (format_ok=True),0,303,stop
+nemotron3_4b,B,reason_on,M3,math,regex_number,1,got 480 (format_ok=True),0,308,stop
+nemotron3_4b,B,reason_on,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,201,stop
+nemotron3_4b,B,reason_on,R1,math,regex_number,1,got 5 (format_ok=True),0,220,stop
+nemotron3_4b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,238,stop
+nemotron3_4b,B,reason_on,R3,math,regex_number,1,got 4 (format_ok=True),0,218,stop
+nemotron3_4b,B,reason_on,R4,logic,regex_number,1,got 4 (format_ok=True),0,228,stop
+phi4mini,A,quality,C1,code,unit_tests,1,pass,0,42,stop
+phi4mini,A,quality,C2,code,unit_tests,1,pass,0,132,stop
+phi4mini,A,quality,C3,code,unit_tests,1,pass,0,120,stop
+phi4mini,A,quality,C4,code,unit_tests,1,pass,0,45,stop
+phi4mini,A,quality,G1,general,rubric,,rubric (scored by hand),0,76,stop
+phi4mini,A,quality,G2,general,rubric,,rubric (scored by hand),0,96,stop
+phi4mini,A,quality,G3,general,rubric,,rubric (scored by hand),0,68,stop
+phi4mini,A,quality,G4,general,rubric,,rubric (scored by hand),0,143,stop
+phi4mini,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,20,stop
+phi4mini,A,quality,I2,instruction,json_only,0,strict_json=False fenced_json=True shape_ok=True,0,38,stop
+phi4mini,A,quality,I3,instruction,max_words,1,27 words,0,34,stop
+phi4mini,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,26,stop
+phi4mini,A,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,59,stop
+phi4mini,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,109,stop
+phi4mini,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,328,stop
+phi4mini,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,49,stop
+phi4mini,A,quality,S1,summarization,rubric+max_words,0,length check: 68 words (limit 60),0,93,stop
+phi4mini,A,quality,S2,summarization,rubric+max_words,0,length check: 30 words (limit 19),0,41,stop
+phi4mini,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=32,0,43,stop
+phi4mini,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+phi4mini,B,quality,C1,code,unit_tests,1,pass,0,42,stop
+phi4mini,B,quality,C2,code,unit_tests,1,pass,0,132,stop
+phi4mini,B,quality,C3,code,unit_tests,1,pass,0,120,stop
+phi4mini,B,quality,C4,code,unit_tests,1,pass,0,45,stop
+phi4mini,B,quality,G1,general,rubric,,rubric (scored by hand),0,76,stop
+phi4mini,B,quality,G2,general,rubric,,rubric (scored by hand),0,96,stop
+phi4mini,B,quality,G3,general,rubric,,rubric (scored by hand),0,68,stop
+phi4mini,B,quality,G4,general,rubric,,rubric (scored by hand),0,143,stop
+phi4mini,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,20,stop
+phi4mini,B,quality,I2,instruction,json_only,0,strict_json=False fenced_json=True shape_ok=True,0,38,stop
+phi4mini,B,quality,I3,instruction,max_words,1,27 words,0,34,stop
+phi4mini,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,26,stop
+phi4mini,B,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,59,stop
+phi4mini,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,109,stop
+phi4mini,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,328,stop
+phi4mini,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,49,stop
+phi4mini,B,quality,S1,summarization,rubric+max_words,0,length check: 75 words (limit 60),0,102,stop
+phi4mini,B,quality,S2,summarization,rubric+max_words,0,length check: 31 words (limit 19),0,42,stop
+phi4mini,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=32,0,43,stop
+phi4mini,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+phi4mini,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,152,stop
+phi4mini,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,208,stop
+phi4mini,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,344,stop
+phi4mini,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,80,stop
+qwen35_08b,A,quality,C1,code,unit_tests,0,fail: AssertionError,0,35,stop
+qwen35_08b,A,quality,C2,code,unit_tests,0,fail: AssertionError,0,140,stop
+qwen35_08b,A,quality,C3,code,unit_tests,0,"fail: TypeError: replace() argument 2 must be str, not int",0,75,stop
+qwen35_08b,A,quality,C4,code,unit_tests,0,fail: AssertionError,0,54,stop
+qwen35_08b,A,quality,G1,general,rubric,,rubric (scored by hand),0,89,stop
+qwen35_08b,A,quality,G2,general,rubric,,rubric (scored by hand),0,60,stop
+qwen35_08b,A,quality,G3,general,rubric,,rubric (scored by hand),0,116,stop
+qwen35_08b,A,quality,G4,general,rubric,,rubric (scored by hand),0,241,stop
+qwen35_08b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,38,stop
+qwen35_08b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,52,stop
+qwen35_08b,A,quality,I3,instruction,max_words,1,18 words,0,24,stop
+qwen35_08b,A,quality,I4,instruction,keyword_and_end,0,keyword=True ends_with_END=False,0,44,stop
+qwen35_08b,A,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,92,stop
+qwen35_08b,A,quality,M2,math,regex_number,0,got 240 (format_ok=True),0,224,stop
+qwen35_08b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,233,stop
+qwen35_08b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,285,stop
+qwen35_08b,A,quality,S1,summarization,rubric+max_words,0,length check: 76 words (limit 60),0,109,stop
+qwen35_08b,A,quality,S2,summarization,rubric+max_words,0,length check: 28 words (limit 19),0,48,stop
+qwen35_08b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=25,0,30,stop
+qwen35_08b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+qwen35_08b,B,quality,C1,code,unit_tests,0,fail: AssertionError,0,35,stop
+qwen35_08b,B,quality,C2,code,unit_tests,0,fail: AssertionError,0,140,stop
+qwen35_08b,B,quality,C3,code,unit_tests,0,"fail: TypeError: replace() argument 2 must be str, not int",0,75,stop
+qwen35_08b,B,quality,C4,code,unit_tests,0,fail: AssertionError,0,54,stop
+qwen35_08b,B,quality,G1,general,rubric,,rubric (scored by hand),0,89,stop
+qwen35_08b,B,quality,G2,general,rubric,,rubric (scored by hand),0,60,stop
+qwen35_08b,B,quality,G3,general,rubric,,rubric (scored by hand),0,116,stop
+qwen35_08b,B,quality,G4,general,rubric,,rubric (scored by hand),0,241,stop
+qwen35_08b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,38,stop
+qwen35_08b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,52,stop
+qwen35_08b,B,quality,I3,instruction,max_words,1,18 words,0,24,stop
+qwen35_08b,B,quality,I4,instruction,keyword_and_end,0,keyword=True ends_with_END=False,0,44,stop
+qwen35_08b,B,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,92,stop
+qwen35_08b,B,quality,M2,math,regex_number,0,got 240 (format_ok=True),0,224,stop
+qwen35_08b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,233,stop
+qwen35_08b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,285,stop
+qwen35_08b,B,quality,S1,summarization,rubric+max_words,0,length check: 76 words (limit 60),0,109,stop
+qwen35_08b,B,quality,S2,summarization,rubric+max_words,0,length check: 28 words (limit 19),0,48,stop
+qwen35_08b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=25,0,30,stop
+qwen35_08b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+qwen35_08b,B,reason_off,R1,math,regex_number,0,got 1.00 (format_ok=False),0,512,length
+qwen35_08b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,155,stop
+qwen35_08b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,196,stop
+qwen35_08b,B,reason_off,R4,logic,regex_number,0,got 5 (format_ok=False),0,512,length
+qwen35_08b,B,reason_on,M1,math,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_08b,B,reason_on,M2,math,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_08b,B,reason_on,M3,math,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_08b,B,reason_on,M4,logic,regex_word,0,segment='' (format_ok=False),0,3072,length
+qwen35_08b,B,reason_on,R1,math,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_08b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,2445,stop
+qwen35_08b,B,reason_on,R3,math,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_08b,B,reason_on,R4,logic,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_2b,A,quality,C1,code,unit_tests,0,fail: AssertionError,0,36,stop
+qwen35_2b,A,quality,C2,code,unit_tests,1,pass,0,151,stop
+qwen35_2b,A,quality,C3,code,unit_tests,1,pass,0,147,stop
+qwen35_2b,A,quality,C4,code,unit_tests,0,fail: ValueError: max() iterable argument is empty,0,65,stop
+qwen35_2b,A,quality,G1,general,rubric,,rubric (scored by hand),0,88,stop
+qwen35_2b,A,quality,G2,general,rubric,,rubric (scored by hand),0,56,stop
+qwen35_2b,A,quality,G3,general,rubric,,rubric (scored by hand),0,90,stop
+qwen35_2b,A,quality,G4,general,rubric,,rubric (scored by hand),0,175,stop
+qwen35_2b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,47,stop
+qwen35_2b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,27,stop
+qwen35_2b,A,quality,I3,instruction,max_words,0,41 words,0,50,stop
+qwen35_2b,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,34,stop
+qwen35_2b,A,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,78,stop
+qwen35_2b,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,153,stop
+qwen35_2b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,331,stop
+qwen35_2b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,135,stop
+qwen35_2b,A,quality,S1,summarization,rubric+max_words,0,length check: 61 words (limit 60),0,89,stop
+qwen35_2b,A,quality,S2,summarization,rubric+max_words,0,length check: 25 words (limit 19),0,36,stop
+qwen35_2b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=36,0,44,stop
+qwen35_2b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+qwen35_2b,B,quality,C1,code,unit_tests,0,fail: AssertionError,0,36,stop
+qwen35_2b,B,quality,C2,code,unit_tests,1,pass,0,151,stop
+qwen35_2b,B,quality,C3,code,unit_tests,1,pass,0,147,stop
+qwen35_2b,B,quality,C4,code,unit_tests,0,fail: ValueError: max() iterable argument is empty,0,65,stop
+qwen35_2b,B,quality,G1,general,rubric,,rubric (scored by hand),0,88,stop
+qwen35_2b,B,quality,G2,general,rubric,,rubric (scored by hand),0,56,stop
+qwen35_2b,B,quality,G3,general,rubric,,rubric (scored by hand),0,90,stop
+qwen35_2b,B,quality,G4,general,rubric,,rubric (scored by hand),0,175,stop
+qwen35_2b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,47,stop
+qwen35_2b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,27,stop
+qwen35_2b,B,quality,I3,instruction,max_words,0,41 words,0,50,stop
+qwen35_2b,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,34,stop
+qwen35_2b,B,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,78,stop
+qwen35_2b,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,153,stop
+qwen35_2b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,331,stop
+qwen35_2b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,135,stop
+qwen35_2b,B,quality,S1,summarization,rubric+max_words,0,length check: 67 words (limit 60),0,96,stop
+qwen35_2b,B,quality,S2,summarization,rubric+max_words,0,length check: 30 words (limit 19),0,40,stop
+qwen35_2b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=36,0,44,stop
+qwen35_2b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+qwen35_2b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,125,stop
+qwen35_2b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,218,stop
+qwen35_2b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,250,stop
+qwen35_2b,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,274,stop
+qwen35_2b,B,reason_on,M1,math,regex_number,1,got 3.50 (format_ok=True),0,881,stop
+qwen35_2b,B,reason_on,M2,math,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_2b,B,reason_on,M3,math,regex_number,1,got 480 (format_ok=True),0,1356,stop
+qwen35_2b,B,reason_on,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,579,stop
+qwen35_2b,B,reason_on,R1,math,regex_number,1,got 5 (format_ok=True),0,1251,stop
+qwen35_2b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,1043,stop
+qwen35_2b,B,reason_on,R3,math,regex_number,0,no number (format_ok=False),0,3072,length
+qwen35_2b,B,reason_on,R4,logic,regex_number,1,got 4 (format_ok=True),0,1507,stop
+qwen35_4b,A,quality,C1,code,unit_tests,1,pass,0,39,stop
+qwen35_4b,A,quality,C2,code,unit_tests,1,pass,0,160,stop
+qwen35_4b,A,quality,C3,code,unit_tests,1,pass,0,147,stop
+qwen35_4b,A,quality,C4,code,unit_tests,1,pass,0,56,stop
+qwen35_4b,A,quality,G1,general,rubric,,rubric (scored by hand),0,90,stop
+qwen35_4b,A,quality,G2,general,rubric,,rubric (scored by hand),0,111,stop
+qwen35_4b,A,quality,G3,general,rubric,,rubric (scored by hand),0,120,stop
+qwen35_4b,A,quality,G4,general,rubric,,rubric (scored by hand),0,260,stop
+qwen35_4b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,49,stop
+qwen35_4b,A,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,33,stop
+qwen35_4b,A,quality,I3,instruction,max_words,1,36 words,0,45,stop
+qwen35_4b,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,36,stop
+qwen35_4b,A,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,126,stop
+qwen35_4b,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,265,stop
+qwen35_4b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,311,stop
+qwen35_4b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,215,stop
+qwen35_4b,A,quality,S1,summarization,rubric+max_words,1,length check: 44 words (limit 60),0,62,stop
+qwen35_4b,A,quality,S2,summarization,rubric+max_words,1,length check: 18 words (limit 19),0,24,stop
+qwen35_4b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=37,0,46,stop
+qwen35_4b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+qwen35_4b,B,quality,C1,code,unit_tests,1,pass,0,39,stop
+qwen35_4b,B,quality,C2,code,unit_tests,1,pass,0,160,stop
+qwen35_4b,B,quality,C3,code,unit_tests,1,pass,0,147,stop
+qwen35_4b,B,quality,C4,code,unit_tests,1,pass,0,56,stop
+qwen35_4b,B,quality,G1,general,rubric,,rubric (scored by hand),0,90,stop
+qwen35_4b,B,quality,G2,general,rubric,,rubric (scored by hand),0,111,stop
+qwen35_4b,B,quality,G3,general,rubric,,rubric (scored by hand),0,120,stop
+qwen35_4b,B,quality,G4,general,rubric,,rubric (scored by hand),0,266,stop
+qwen35_4b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,49,stop
+qwen35_4b,B,quality,I2,instruction,json_only,1,strict_json=True fenced_json=False shape_ok=True,0,33,stop
+qwen35_4b,B,quality,I3,instruction,max_words,1,36 words,0,45,stop
+qwen35_4b,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,36,stop
+qwen35_4b,B,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,126,stop
+qwen35_4b,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,265,stop
+qwen35_4b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,311,stop
+qwen35_4b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,215,stop
+qwen35_4b,B,quality,S1,summarization,rubric+max_words,1,length check: 49 words (limit 60),0,76,stop
+qwen35_4b,B,quality,S2,summarization,rubric+max_words,1,length check: 13 words (limit 19),0,18,stop
+qwen35_4b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=37,0,46,stop
+qwen35_4b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,3,stop
+qwen35_4b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,161,stop
+qwen35_4b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,294,stop
+qwen35_4b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,273,stop
+qwen35_4b,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,265,stop
+qwen35_4b,B,reason_on,M1,math,regex_number,1,got 3.50 (format_ok=True),0,774,stop
+qwen35_4b,B,reason_on,M2,math,regex_number,1,got 215 (format_ok=True),0,1319,stop
+qwen35_4b,B,reason_on,M3,math,regex_number,1,got 480 (format_ok=True),0,1287,stop
+qwen35_4b,B,reason_on,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,654,stop
+qwen35_4b,B,reason_on,R1,math,regex_number,1,got 5 (format_ok=True),0,976,stop
+qwen35_4b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,1275,stop
+qwen35_4b,B,reason_on,R3,math,regex_number,1,got 4 (format_ok=True),0,1250,stop
+qwen35_4b,B,reason_on,R4,logic,regex_number,1,got 4 (format_ok=True),0,1014,stop
+smollm3_3b,A,quality,C1,code,unit_tests,1,pass,0,33,stop
+smollm3_3b,A,quality,C2,code,unit_tests,1,pass,0,85,stop
+smollm3_3b,A,quality,C3,code,unit_tests,1,pass,0,115,stop
+smollm3_3b,A,quality,C4,code,unit_tests,1,pass,0,42,stop
+smollm3_3b,A,quality,G1,general,rubric,,rubric (scored by hand),0,83,stop
+smollm3_3b,A,quality,G2,general,rubric,,rubric (scored by hand),0,71,stop
+smollm3_3b,A,quality,G3,general,rubric,,rubric (scored by hand),0,114,stop
+smollm3_3b,A,quality,G4,general,rubric,,rubric (scored by hand),0,170,stop
+smollm3_3b,A,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,20,stop
+smollm3_3b,A,quality,I2,instruction,json_only,0,strict_json=False fenced_json=True shape_ok=True,0,33,stop
+smollm3_3b,A,quality,I3,instruction,max_words,1,24 words,0,32,stop
+smollm3_3b,A,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,38,stop
+smollm3_3b,A,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,54,stop
+smollm3_3b,A,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,137,stop
+smollm3_3b,A,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,300,stop
+smollm3_3b,A,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,116,stop
+smollm3_3b,A,quality,S1,summarization,rubric+max_words,0,length check: 91 words (limit 60),0,123,stop
+smollm3_3b,A,quality,S2,summarization,rubric+max_words,0,length check: 30 words (limit 19),0,38,stop
+smollm3_3b,A,quality,T1,multiturn,all_lowercase,1,lowercase=True words=34,0,46,stop
+smollm3_3b,A,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+smollm3_3b,B,quality,C1,code,unit_tests,1,pass,0,33,stop
+smollm3_3b,B,quality,C2,code,unit_tests,1,pass,0,85,stop
+smollm3_3b,B,quality,C3,code,unit_tests,1,pass,0,115,stop
+smollm3_3b,B,quality,C4,code,unit_tests,1,pass,0,42,stop
+smollm3_3b,B,quality,G1,general,rubric,,rubric (scored by hand),0,83,stop
+smollm3_3b,B,quality,G2,general,rubric,,rubric (scored by hand),0,71,stop
+smollm3_3b,B,quality,G3,general,rubric,,rubric (scored by hand),0,114,stop
+smollm3_3b,B,quality,G4,general,rubric,,rubric (scored by hand),0,170,stop
+smollm3_3b,B,quality,I1,instruction,exact_bullets,1,3 bullets / 3 lines,0,20,stop
+smollm3_3b,B,quality,I2,instruction,json_only,0,strict_json=False fenced_json=True shape_ok=True,0,33,stop
+smollm3_3b,B,quality,I3,instruction,max_words,1,24 words,0,32,stop
+smollm3_3b,B,quality,I4,instruction,keyword_and_end,1,keyword=True ends_with_END=True,0,38,stop
+smollm3_3b,B,quality,M1,math,regex_number,1,got 3.50 (format_ok=True),0,54,stop
+smollm3_3b,B,quality,M2,math,regex_number,1,got 215 (format_ok=True),0,137,stop
+smollm3_3b,B,quality,M3,math,regex_number,1,got 480 (format_ok=True),0,300,stop
+smollm3_3b,B,quality,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,116,stop
+smollm3_3b,B,quality,S1,summarization,rubric+max_words,0,length check: 91 words (limit 60),0,123,stop
+smollm3_3b,B,quality,S2,summarization,rubric+max_words,0,length check: 30 words (limit 19),0,38,stop
+smollm3_3b,B,quality,T1,multiturn,all_lowercase,1,lowercase=True words=34,0,46,stop
+smollm3_3b,B,quality,T2,multiturn,contains_short,1,contains=True words=1,0,2,stop
+smollm3_3b,B,reason_off,R1,math,regex_number,1,got 5 (format_ok=True),0,115,stop
+smollm3_3b,B,reason_off,R2,math,regex_number,1,got 24 (format_ok=True),0,185,stop
+smollm3_3b,B,reason_off,R3,math,regex_number,1,got 4 (format_ok=True),0,194,stop
+smollm3_3b,B,reason_off,R4,logic,regex_number,1,got 4 (format_ok=True),0,111,stop
+smollm3_3b,B,reason_on,M1,math,regex_number,1,got 3.50 (format_ok=True),0,64,stop
+smollm3_3b,B,reason_on,M2,math,regex_number,1,got 215 (format_ok=True),0,141,stop
+smollm3_3b,B,reason_on,M3,math,regex_number,1,got 480 (format_ok=True),0,304,stop
+smollm3_3b,B,reason_on,M4,logic,regex_word,1,segment='carol' (format_ok=True),0,120,stop
+smollm3_3b,B,reason_on,R1,math,regex_number,1,got 5 (format_ok=True),0,141,stop
+smollm3_3b,B,reason_on,R2,math,regex_number,1,got 24 (format_ok=True),0,175,stop
+smollm3_3b,B,reason_on,R3,math,regex_number,1,got 4 (format_ok=True),0,198,stop
+smollm3_3b,B,reason_on,R4,logic,regex_number,0,got 3 (format_ok=True),0,81,stop

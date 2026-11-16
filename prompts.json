@@ -1,0 +1,242 @@
+{
+  "system": "You are a helpful assistant. Answer accurately and concisely.",
+  "passage": "In the spring of 2019, the public library in the small river town of Millbrook began lending something unusual: seeds. The idea came from Rosa Delgado, a retired science teacher who volunteered at the front desk. She noticed that many patrons borrowed gardening books but said that buying seed packets every year was expensive, especially for families on tight budgets. Delgado proposed a simple system. Members could take up to five packets of vegetable, herb or flower seeds each season at no cost. In return, they were encouraged, but not required, to let a few plants go to seed at the end of the summer and bring some of those seeds back to the library. The first year was modest. The library started with about 400 donated packets stored in an old wooden card catalog, and roughly 120 households took part. Many returns were mislabeled or mixed, so volunteers held evening workshops on how to dry, sort and label seeds properly. By 2022, the program had grown to more than 600 participating households and the collection included over 90 varieties, several of them local tomatoes and beans that had been grown in the valley for generations. Not everything went smoothly. Some seeds cross-pollinated and produced plants that looked nothing like the label promised, and the library had to add a warning card explaining which crops are easy to save and which are not. A small group of residents also worried that the program distracted staff from traditional library work. Supporters argue that the benefits are clear. The seed library has brought new visitors through the doors, connected older gardeners with younger ones, and helped preserve plant varieties that might otherwise have disappeared. Other libraries in the region have since visited Millbrook to copy the model.",
+  "passage_words": 295,
+  "prompts": [
+    {
+      "id": "G1",
+      "category": "general",
+      "scoring": "rubric",
+      "prompt": "Explain why the sky is blue in 3 to 4 sentences for a high-school student."
+    },
+    {
+      "id": "G2",
+      "category": "general",
+      "scoring": "rubric",
+      "prompt": "What is the difference between RAM and storage (such as an SSD) in a computer? Answer in one short paragraph."
+    },
+    {
+      "id": "G3",
+      "category": "general",
+      "scoring": "rubric",
+      "prompt": "Briefly explain what inflation is and name two common causes of it."
+    },
+    {
+      "id": "G4",
+      "category": "general",
+      "scoring": "rubric",
+      "prompt": "What causes the seasons on Earth? Many people think it is the distance from the Sun; address that misconception in your answer."
+    },
+    {
+      "id": "S1",
+      "category": "summarization",
+      "scoring": "rubric+max_words",
+      "max_words": 60,
+      "prompt": "Summarize the following passage in at most 60 words.\n\nPassage:\nIn the spring of 2019, the public library in the small river town of Millbrook began lending something unusual: seeds. The idea came from Rosa Delgado, a retired science teacher who volunteered at the front desk. She noticed that many patrons borrowed gardening books but said that buying seed packets every year was expensive, especially for families on tight budgets. Delgado proposed a simple system. Members could take up to five packets of vegetable, herb or flower seeds each season at no cost. In return, they were encouraged, but not required, to let a few plants go to seed at the end of the summer and bring some of those seeds back to the library. The first year was modest. The library started with about 400 donated packets stored in an old wooden card catalog, and roughly 120 households took part. Many returns were mislabeled or mixed, so volunteers held evening workshops on how to dry, sort and label seeds properly. By 2022, the program had grown to more than 600 participating households and the collection included over 90 varieties, several of them local tomatoes and beans that had been grown in the valley for generations. Not everything went smoothly. Some seeds cross-pollinated and produced plants that looked nothing like the label promised, and the library had to add a warning card explaining which crops are easy to save and which are not. A small group of residents also worried that the program distracted staff from traditional library work. Supporters argue that the benefits are clear. The seed library has brought new visitors through the doors, connected older gardeners with younger ones, and helped preserve plant varieties that might otherwise have disappeared. Other libraries in the region have since visited Millbrook to copy the model."
+    },
+    {
+      "id": "S2",
+      "category": "summarization",
+      "scoring": "rubric+max_words",
+      "max_words": 19,
+      "prompt": "Give a one-sentence summary of the following passage in under 20 words.\n\nPassage:\nIn the spring of 2019, the public library in the small river town of Millbrook began lending something unusual: seeds. The idea came from Rosa Delgado, a retired science teacher who volunteered at the front desk. She noticed that many patrons borrowed gardening books but said that buying seed packets every year was expensive, especially for families on tight budgets. Delgado proposed a simple system. Members could take up to five packets of vegetable, herb or flower seeds each season at no cost. In return, they were encouraged, but not required, to let a few plants go to seed at the end of the summer and bring some of those seeds back to the library. The first year was modest. The library started with about 400 donated packets stored in an old wooden card catalog, and roughly 120 households took part. Many returns were mislabeled or mixed, so volunteers held evening workshops on how to dry, sort and label seeds properly. By 2022, the program had grown to more than 600 participating households and the collection included over 90 varieties, several of them local tomatoes and beans that had been grown in the valley for generations. Not everything went smoothly. Some seeds cross-pollinated and produced plants that looked nothing like the label promised, and the library had to add a warning card explaining which crops are easy to save and which are not. A small group of residents also worried that the program distracted staff from traditional library work. Supporters argue that the benefits are clear. The seed library has brought new visitors through the doors, connected older gardeners with younger ones, and helped preserve plant varieties that might otherwise have disappeared. Other libraries in the region have since visited Millbrook to copy the model."
+    },
+    {
+      "id": "M1",
+      "category": "math",
+      "scoring": "regex_number",
+      "answer": 3.5,
+      "prompt": "A shop sells pencils at 3 for $0.75. How much do 14 pencils cost, in dollars? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    },
+    {
+      "id": "M2",
+      "category": "math",
+      "scoring": "regex_number",
+      "answer": 215,
+      "prompt": "A train leaves at 9:40 and arrives at 13:15 on the same day. How many minutes does the trip take? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    },
+    {
+      "id": "M3",
+      "category": "math",
+      "scoring": "regex_number",
+      "answer": 480,
+      "prompt": "What is the sum of all integers from 1 to 60 (inclusive) that are divisible by 4? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    },
+    {
+      "id": "M4",
+      "category": "logic",
+      "scoring": "regex_word",
+      "answer": "carol",
+      "prompt": "Alice is older than Bob. Carol is younger than Bob. Dave is older than Alice. Who is the youngest of the four? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    },
+    {
+      "id": "C1",
+      "category": "code",
+      "scoring": "unit_tests",
+      "func": "is_palindrome",
+      "prompt": "Write a Python function `is_palindrome(s)` that returns True if the string s is a palindrome when you ignore case and every character that is not a letter or digit, and False otherwise. Reply with only the code in one ```python code block, no explanation.",
+      "tests": [
+        "assert is_palindrome('A man, a plan, a canal: Panama') == True",
+        "assert is_palindrome('race a car') == False",
+        "assert is_palindrome('') == True",
+        "assert is_palindrome(\"No 'x' in Nixon\") == True",
+        "assert is_palindrome('ab') == False"
+      ]
+    },
+    {
+      "id": "C2",
+      "category": "code",
+      "scoring": "unit_tests",
+      "func": "merge_intervals",
+      "prompt": "Write a Python function `merge_intervals(intervals)` that takes a list of [start, end] integer pairs, merges all overlapping or touching intervals, and returns the merged intervals as a list of [start, end] lists sorted by start. Reply with only the code in one ```python code block, no explanation.",
+      "tests": [
+        "_r = lambda x: [list(i) for i in x]",
+        "assert _r(merge_intervals([[1,3],[2,6],[8,10],[15,18]])) == [[1,6],[8,10],[15,18]]",
+        "assert _r(merge_intervals([[1,4],[4,5]])) == [[1,5]]",
+        "assert _r(merge_intervals([])) == []",
+        "assert _r(merge_intervals([[5,7],[1,2]])) == [[1,2],[5,7]]",
+        "assert _r(merge_intervals([[1,10],[2,3],[4,5]])) == [[1,10]]"
+      ]
+    },
+    {
+      "id": "C3",
+      "category": "code",
+      "scoring": "unit_tests",
+      "func": "roman_to_int",
+      "prompt": "Write a Python function `roman_to_int(s)` that converts a Roman numeral string such as 'MCMXCIV' into an integer. Reply with only the code in one ```python code block, no explanation.",
+      "tests": [
+        "assert roman_to_int('III') == 3",
+        "assert roman_to_int('LVIII') == 58",
+        "assert roman_to_int('MCMXCIV') == 1994",
+        "assert roman_to_int('IX') == 9",
+        "assert roman_to_int('XL') == 40"
+      ]
+    },
+    {
+      "id": "C4",
+      "category": "code",
+      "scoring": "unit_tests",
+      "func": "second_largest",
+      "prompt": "Write a Python function `second_largest(nums)` that returns the second largest distinct value in a list of integers, or None if the list has fewer than two distinct values. Reply with only the code in one ```python code block, no explanation.",
+      "tests": [
+        "assert second_largest([3,1,4,4,5]) == 4",
+        "assert second_largest([7,7,7]) is None",
+        "assert second_largest([]) is None",
+        "assert second_largest([-2,-1]) == -2",
+        "assert second_largest([10, 9]) == 9"
+      ]
+    },
+    {
+      "id": "I1",
+      "category": "instruction",
+      "scoring": "exact_bullets",
+      "n": 3,
+      "prompt": "List exactly 3 benefits of regular exercise as bullet points. Output only the 3 bullet points and nothing else."
+    },
+    {
+      "id": "I2",
+      "category": "instruction",
+      "scoring": "json_only",
+      "prompt": "Return only valid JSON, with no code fences and no extra text, describing the Eiffel Tower as an object with the keys \"name\" (a string), \"year\" (an integer, the year it was completed) and \"tags\" (a list of exactly 3 strings)."
+    },
+    {
+      "id": "I3",
+      "category": "instruction",
+      "scoring": "max_words",
+      "max_words": 39,
+      "prompt": "In under 40 words, explain what a VPN does."
+    },
+    {
+      "id": "I4",
+      "category": "instruction",
+      "scoring": "keyword_and_end",
+      "keyword": "turquoise",
+      "end": "END",
+      "prompt": "Write two sentences about the ocean. You must use the word \"turquoise\", and the very last word of your reply must be END in capital letters."
+    },
+    {
+      "id": "T1",
+      "category": "multiturn",
+      "scoring": "all_lowercase",
+      "min_words": 10,
+      "system": "You are a travel assistant. You must write every reply entirely in lowercase letters, with no capital letters at all.",
+      "prompt": "Tell me about Paris in two sentences."
+    },
+    {
+      "id": "T2",
+      "category": "multiturn",
+      "scoring": "contains_short",
+      "answer": "94",
+      "max_words": 10,
+      "history": [
+        {
+          "role": "user",
+          "content": "My favourite number is 47. Please remember it."
+        },
+        {
+          "role": "assistant",
+          "content": "Got it. Your favourite number is 47."
+        },
+        {
+          "role": "user",
+          "content": "I am also learning Spanish this year."
+        },
+        {
+          "role": "assistant",
+          "content": "That is great. Good luck with your Spanish studies!"
+        }
+      ],
+      "prompt": "What is my favourite number multiplied by 2? Reply with just the number."
+    }
+  ],
+  "reasoning_extra": [
+    {
+      "id": "R1",
+      "category": "math",
+      "scoring": "regex_number",
+      "answer": 5,
+      "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost, in cents? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    },
+    {
+      "id": "R2",
+      "category": "math",
+      "scoring": "regex_number",
+      "answer": 24,
+      "prompt": "Tom has twice as many marbles as Jerry. After Tom gives Jerry 6 marbles, they have the same number. How many marbles did Tom have at first? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    },
+    {
+      "id": "R3",
+      "category": "math",
+      "scoring": "regex_number",
+      "answer": 4,
+      "prompt": "What is the remainder when 2 to the power of 20 is divided by 7? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    },
+    {
+      "id": "R4",
+      "category": "logic",
+      "scoring": "regex_number",
+      "answer": 4,
+      "prompt": "Five people sit in a row of seats numbered 1 to 5 from the left. Ann sits in seat 1. Ben sits next to Ann. Cara sits in seat 5. Dan does not sit next to Cara. Eve sits in the remaining seat. Which seat number does Eve sit in? Show your working briefly, then end your reply with a line of the form 'Final answer: <answer>'."
+    }
+  ],
+  "speed": [
+    {
+      "id": "SP1",
+      "prompt": "Write a detailed story of about 400 words about a lighthouse keeper who finds a message in a bottle."
+    },
+    {
+      "id": "SP2",
+      "prompt": "Explain in detail, step by step, how a household refrigerator keeps food cold."
+    },
+    {
+      "id": "SP3",
+      "prompt": "Describe the history of the printing press and its effects on European society."
+    }
+  ],
+  "warmup": "Say hello in one short sentence.",
+  "long_prompt": {
+    "id": "LONG",
+    "prompt": "Below is a log of customer orders.\n\nOrder #1001: Liam from Cork ordered 1 notebooks on 26 May and paid by card; delivery took 3 days.\nOrder #1002: Omar from Porto ordered 4 desk lamps on 1 January and paid in cash; delivery took 9 days.\nOrder #1003: Aisha from Cork ordered 2 coffee mugs on 23 January and paid by card; delivery took 9 days.\nOrder #1004: Liam from Graz ordered 9 backpacks on 3 May and paid by bank transfer; delivery took 3 days.\nOrder #1005: Sofia from Lyon ordered 9 notebooks on 21 March and paid in cash; delivery took 7 days.\nOrder #1006: Kenji from Turin ordered 4 backpacks on 17 June and paid by card; delivery took 3 days.\nOrder #1007: Omar from Lyon ordered 3 backpacks on 22 April and paid by card; delivery took 2 days.\nOrder #1008: Lucas from Porto ordered 8 coffee mugs on 3 May and paid by card; delivery took 4 days.\nOrder #1009: Omar from Lyon ordered 2 coffee mugs on 22 March and paid in cash; delivery took 2 days.\nOrder #1010: Sofia from Bergen ordered 1 coffee mugs on 9 February and paid in cash; delivery took 4 days.\nOrder #1011: Maria from Cork ordered 7 water bottles on 16 March and paid by bank transfer; delivery took 9 days.\nOrder #1012: Maria from Cork ordered 8 coffee mugs on 15 June and paid by bank transfer; delivery took 9 days.\nOrder #1013: Sofia from Turin ordered 2 coffee mugs on 14 April and paid by card; delivery took 3 days.\nOrder #1014: Elena from Cork ordered 5 phone chargers on 12 January and paid by bank transfer; delivery took 4 days.\nOrder #1015: Aisha from Turin ordered 6 backpacks on 24 January and paid by card; delivery took 8 days.\nOrder #1016: Maria from Graz ordered 5 desk lamps on 8 May and paid by card; delivery took 7 days.\nOrder #1017: Noah from Turin ordered 2 wool scarves on 28 January and paid by bank transfer; delivery took 8 days.\nOrder #1018: Liam from Graz ordered 7 phone chargers on 23 April and paid by bank transfer; delivery took 5 days.\nOrder #1019: Kenji from Ghent ordered 9 pencil cases on 6 May and paid by card; delivery took 6 days.\nOrder #1020: Omar from Lyon ordered 9 coffee mugs on 16 May and paid in cash; delivery took 7 days.\nOrder #1021: Aisha from Leeds ordered 1 coffee mugs on 5 May and paid by card; delivery took 7 days.\nOrder #1022: Maria from Leeds ordered 1 notebooks on 25 February and paid by card; delivery took 2 days.\nOrder #1023: Elena from Bergen ordered 6 phone chargers on 27 June and paid in cash; delivery took 6 days.\nOrder #1024: Elena from Turin ordered 6 coffee mugs on 27 May and paid by card; delivery took 6 days.\nOrder #1025: Elena from Turin ordered 7 wool scarves on 17 January and paid by bank transfer; delivery took 8 days.\nOrder #1026: Kenji from Turin ordered 5 pencil cases on 2 March and paid in cash; delivery took 5 days.\nOrder #1027: Aisha from Cork ordered 7 wool scarves on 1 January and paid in cash; delivery took 8 days.\nOrder #1028: Elena from Turin ordered 8 coffee mugs on 13 June and paid in cash; delivery took 4 days.\nOrder #1029: Lucas from Turin ordered 6 water bottles on 7 February and paid by bank transfer; delivery took 9 days.\nOrder #1030: Mei from Cork ordered 1 backpacks on 22 January and paid by card; delivery took 7 days.\nOrder #1031: Liam from Cork ordered 3 water bottles on 12 March and paid in cash; delivery took 7 days.\nOrder #1032: Lucas from Turin ordered 4 wool scarves on 3 May and paid by bank transfer; delivery took 5 days.\nOrder #1033: Priya from Ghent ordered 6 water bottles on 15 March and paid by card; delivery took 3 days.\nOrder #1034: Sofia from Graz ordered 6 coffee mugs on 28 January and paid in cash; delivery took 2 days.\nOrder #1035: Kenji from Lyon ordered 3 water bottles on 17 March and paid in cash; delivery took 3 days.\nOrder #1036: Sofia from Turin ordered 8 phone chargers on 12 May and paid by card; delivery took 2 days.\nOrder #1037: Lucas from Ghent ordered 4 coffee mugs on 16 April and paid by bank transfer; delivery took 4 days.\nOrder #1038: Aisha from Porto ordered 9 phone chargers on 23 February and paid by bank transfer; delivery took 8 days.\nOrder #1039: Aisha from Ghent ordered 9 backpacks on 2 March and paid by card; delivery took 7 days.\nOrder #1040: Maria from Bergen ordered 2 water bottles on 8 May and paid by card; delivery took 7 days.\nOrder #1041: Lucas from Bergen ordered 8 desk lamps on 1 April and paid by card; delivery took 6 days.\nOrder #1042: Omar from Bergen ordered 3 backpacks on 22 June and paid by card; delivery took 2 days.\nOrder #1043: Lucas from Ghent ordered 6 pencil cases on 6 January and paid by bank transfer; delivery took 2 days.\nOrder #1044: Kenji from Graz ordered 9 coffee mugs on 17 February and paid by bank transfer; delivery took 6 days.\nOrder #1045: Lucas from Lyon ordered 8 water bottles on 20 June and paid in cash; delivery took 6 days.\nOrder #1046: Elena from Bergen ordered 6 phone chargers on 10 January and paid in cash; delivery took 6 days.\nOrder #1047: Priya from Porto ordered 1 phone chargers on 18 May and paid by bank transfer; delivery took 7 days.\nOrder #1048: Omar from Leeds ordered 5 water bottles on 27 March and paid by bank transfer; delivery took 4 days.\nOrder #1049: Aisha from Cork ordered 1 pencil cases on 8 February and paid in cash; delivery took 6 days.\nOrder #1050: Omar from Leeds ordered 7 backpacks on 25 May and paid by bank transfer; delivery took 9 days.\nOrder #1051: Priya from Cork ordered 8 water bottles on 20 January and paid by bank transfer; delivery took 8 days.\nOrder #1052: Liam from Leeds ordered 8 backpacks on 4 May and paid by bank transfer; delivery took 4 days.\nOrder #1053: Kenji from Turin ordered 2 water bottles on 13 March and paid by bank transfer; delivery took 7 days.\nOrder #1054: Priya from Bergen ordered 4 backpacks on 22 June and paid in cash; delivery took 7 days.\nOrder #1055: Priya from Cork ordered 2 backpacks on 3 January and paid by card; delivery took 4 days.\nOrder #1056: Aisha from Ghent ordered 7 wool scarves on 23 February and paid in cash; delivery took 2 days.\n\nQuestion: How many of these orders came from customers in Lyon? Reply with just the number.",
+    "answer": 6
+  }
+}
